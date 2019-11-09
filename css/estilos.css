@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Blitzen;
+    src: url('../fonts/Blitzen\ Deer.otf');
+}
+
+div.slogan {
+    height: auto;
+    background: #ee6e73 !important;
+}
+
+nav.container {
+    box-shadow: none !important;
+    height: 90px;
+}
+
+nav#nav-menu {
+    height: 65px !important;
+}
+
+.brand-logo img {
+    padding-top: 15px;
+    width: 170px;
+    height: 70px;
+}
+
+#menu {
+    box-shadow: 0 2px 2px 0 rgba(252, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+section#gallery {
+    background-image: url('../img/fundo.jpg');
+    background-repeat: repeat;
+}
+
+.title-gallery {
+    font-size: 32px;
+}
+
+.font-blitzen {
+    font-family: Blitzen !important;
+}
+
+p.subtitle {
+    font-size: 15px;
+    color: #06A9E7;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+div.divider {
+    width: 50px !important;
+    height: 5px;
+    background-color: #D33259 !important;
+    margin-bottom: 40px !important;
+}
+
+.action-item {
+    font-weight: normal;
+    font-size: 20px !important;
+}
+
+.item-btn {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.icons {
+    font-size: 20px !important;
+}
+
+.text-description {
+    width: 350px;
+    text-align: justify;
+    padding-left: 40px !important;
+    font-size: 12px !important;
+}
+
+section#welcome {
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+}
+
+section#cursos {
+    margin-top: 0px !important;
+    background-attachment: fixed;
+    background-image: url(../img/cursos.jpeg);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}

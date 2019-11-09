@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/defines.css">
+    <title>Arvore do Saber</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="slogan">
+            <nav class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo"><img src="img/design.png" alt="logo"></a>
+
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#gallery">Galerias</a></li>
+                        <li><a href="#welcome">Conheça-nos</a></li>
+                        <li><a href="collapsible.html">JavaScript</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="#gallery">Galerias</a></li>
+            <li><a href="#welcome">Conheça-nos</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">three</a></li>
+        </ul>
+        <div class="light-blue darken-4 container-fluid" id="menu">
+            <nav class="light-blue darken-4 container" id="nav-menu">
+                <div class="nav-wrapper">
+                    <a href="#" class="sidenav-trigger" data-target="mobile-nav"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="#gallery">Galerias</a></li>
+                        <li><a href="#welcome">Conheça-nos</a></li>
+                        <li><a href="collapsible.html">JavaScript</a></li>
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="carousel carousel-slider center">
+            <a class="carousel-item" href="#one!"><img src="img/slide1.jpeg"></a>
+            <a class="carousel-item" href="#two!"><img src="img/slide2.jpeg"></a>
+            <a class="carousel-item" href="#three!"><img src="img/slide3.jpeg"></a>
+        </div>
+        <section id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col m12 s12 l12">
+                        <h3 class="title-gallery font-blitzen center green-ligth">Galerias</h3>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/slide1.jpeg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/slide1.jpeg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/slide1.jpeg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col m10 s12 l10">
+                        <h3 class="title-gallery font-blitzen green-ligth">Bem vindo a Avore do Saber</h3>
+                        <p class="subtitle font-blitzen">Brinque de estudar na melhor escola construtivista do Brasil.</p>
+                        <div class="divider"></div>
+                        <p class="justify-align">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto id pariatur ut, magnam incidunt vel quidem animi asperiores repellendus cumque, fuga quos libero? Corporis delectus minus suscipit ab repellendus beatae?</p>
+                        <div class="row">
+                            <div class="col m6 s12">
+                                <div class="actions pt-2">
+                                    <div class="waves-circle mr-4 waves-effect waves-1 btn-floating item-btn"><i class="material-icons icons">school</i></div>
+                                    <b class="font-blitzen action-item">Aprendisagem Ativa</b>
+                                    <p class="pl-3 text-description pr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nemo quaerat beatae ex nostrum quis tempore labore, in earum ab. Delectus eligendi assumenda doloremque. Rerum nisi nobis quis aspernatur dolore?</p>
+                                </div>
+                                <div class="actions pt-2">
+                                    <div class="waves-circle mr-4 waves-effect waves-2 btn-floating item-btn"><i class="material-icons icons">favorite</i></div>
+                                    <b class="font-blitzen action-item">Cumprir com amor</b>
+                                    <p class="pl-3 text-description pr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nemo quaerat beatae ex nostrum quis tempore labore, in earum ab. Delectus eligendi assumenda doloremque. Rerum nisi nobis quis aspernatur dolore?</p>
+                                </div>
+                            </div>
+                            <div class="col m6 s12">
+                                <div class="actions pt-2">
+                                    <div class="waves-circle mr-4 waves-effect waves-3 btn-floating item-btn"><i class="material-icons icons">extension</i></div>
+                                    <b class="font-blitzen action-item">Engraçado e feliz</b>
+                                    <p class="pl-3 text-description pr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nemo quaerat beatae ex nostrum quis tempore labore, in earum ab. Delectus eligendi assumenda doloremque. Rerum nisi nobis quis aspernatur dolore?</p>
+                                </div>
+                                <div class="actions pt-2">
+                                    <div class="waves-circle mr-4 waves-effect waves-4 btn-floating item-btn"><i class="material-icons icons">menu_book</i></div>
+                                    <b class="font-blitzen action-item">Professores Especialistas</b>
+                                    <p class="pl-3 text-description pr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nemo quaerat beatae ex nostrum quis tempore labore, in earum ab. Delectus eligendi assumenda doloremque. Rerum nisi nobis quis aspernatur dolore?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m2 s12 l2 right-align pt-4">
+                        <img class="" src="img/design vertical.png" alt="Logo" height="200px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cursos">
+            <div class="container curso">
+                <h3 class="font-blitzen center size-5 mt-3 green-ligth">Nossos Cursos</h3>
+                <div class="row">
+                    <div class="col m4 l4 s12">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col m4 l4 s12">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/2.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col m4 l4 s12">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/3.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container curso">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos laboriosam quaerat tempora nostrum in fuga voluptates neque, necessitatibus animi aliquid, modi reprehenderit facilis exercitationem minus ab autem officiis omnis.
+            </div>
+        </section>
+    </div>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+</html>

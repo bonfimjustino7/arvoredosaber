@@ -1,0 +1,115 @@
+.float-left {
+    float: left;
+}
+
+.float-rigth {
+    float: right;
+}
+
+.waves-1 {
+    background-color: #Da6744;
+}
+
+.waves-3 {
+    background-color: #AB528c;
+}
+
+.waves-2 {
+    background-color: #D33259;
+}
+
+.waves-4 {
+    background-color: #06a9e7;
+}
+
+.green-ligth {
+    color: #02A45B;
+}
+
+.pr-1,
+.mr-1 {
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+.pr-2,
+.mr-2 {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.pr-3,
+.mr-3 {
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+.pr-4,
+.mr-4 {
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.pl-1,
+.ml-1 {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.pl-2,
+.ml-2 {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.pl-3,
+.ml-3 {
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.pl-4,
+.ml-4 {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.pt-1,
+.mt-1 {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.pt-2,
+.mt-2 {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.pt-3,
+.mt-3 {
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.pt-4,
+.mt-4 {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.size-1 {
+    font-size: 12px;
+}
+
+.size-2 {
+    font-size: 18px;
+}
+
+.size-3 {
+    font-size: 20px;
+}
+
+.size-5 {
+    font-size: 28px;
+}
