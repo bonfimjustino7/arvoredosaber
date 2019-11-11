@@ -26,6 +26,10 @@
     color: #02A45B;
 }
 
+.cinza {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .pr-1,
 .mr-1 {
     margin-right: 5px;

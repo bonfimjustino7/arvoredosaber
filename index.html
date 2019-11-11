@@ -8,18 +8,24 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/defines.css">
+    <link href="css/all.css" rel="stylesheet">
     <title>Arvore do Saber</title>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
+    <div class="fixed-action-btn">
+        <a href="#!" class="btn-floating btn-large cinza top">
+            <i class="large material-icons">keyboard_arrow_up</i>
+        </a>
+    </div>
+
     <div class="container-fluid">
         <div class="slogan">
             <nav class="container">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo"><img src="img/design.png" alt="logo"></a>
-
+                    <a href="#" class="brand-logo"><img src="img/design borda.png" alt="logo"></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#gallery">Galerias</a></li>
                         <li><a href="#welcome">Conheça-nos</a></li>
@@ -30,9 +36,9 @@
             </nav>
         </div>
         <ul class="sidenav" id="mobile-nav">
-            <li><a href="#gallery">Galerias</a></li>
-            <li><a href="#welcome">Conheça-nos</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
+            <li><a class="scroll" href="#gallery">Galerias</a></li>
+            <li><a class="scroll" href="#welcome">Conheça-nos</a></li>
+            <li><a class="scroll" href="#view">Nossa Meta</a></li>
         </ul>
         <ul id="dropdown1" class="dropdown-content">
             <li><a href="#!">one</a></li>
@@ -45,64 +51,56 @@
                 <div class="nav-wrapper">
                     <a href="#" class="sidenav-trigger" data-target="mobile-nav"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="left hide-on-med-and-down">
-                        <li><a href="#gallery">Galerias</a></li>
-                        <li><a href="#welcome">Conheça-nos</a></li>
-                        <li><a href="collapsible.html">JavaScript</a></li>
-                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a class="scroll" href="#gallery">Galerias</a></li>
+                        <li><a class="scroll" href="#welcome">Conheça-nos</a></li>
+                        <li><a class="scroll" href="#view">Nossa Meta</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <div class="carousel carousel-slider center">
-            <a class="carousel-item" href="#one!"><img src="img/slide1.jpeg"></a>
-            <a class="carousel-item" href="#two!"><img src="img/slide2.jpeg"></a>
-            <a class="carousel-item" href="#three!"><img src="img/slide3.jpeg"></a>
+            <a class="carousel-item" href="#one!"><img src="img/foto4.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="img/foto2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="img/foto2.png"></a>
         </div>
-        <section id="gallery">
+        <section id="curso">
             <div class="container">
                 <div class="row">
                     <div class="col m12 s12 l12">
-                        <h3 class="title-gallery font-blitzen center green-ligth">Galerias</h3>
+                        <h3 class="title-gallery font-blitzen center green-ligth">Nossas Atividades</h3>
                     </div>
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="img/slide1.jpeg">
-                                <span class="card-title">Card Title</span>
+                                <img src="img/4.jpg">
                             </div>
                             <div class="card-content">
+                                <span class="card-title">Desenvolvendo a criatividade</span>
                                 <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                             </div>
-                            <div class="card-action">
-                                <a href="#">This is a link</a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="img/slide1.jpeg">
-                                <span class="card-title">Card Title</span>
+                                <img src="img/5.jpg">
                             </div>
-                            <div class="card-content">
+                            <div class="card-content"><span class="card-title">Interação e comunicação</span>
                                 <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                             </div>
-                            <div class="card-action">
-                                <a href="#">This is a link</a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="img/slide1.jpeg">
-                                <span class="card-title">Card Title</span>
+                                <img src="img/6.jpg" height="194">
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <span class="card-title">Aprender Brincando</span>
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. Because I require little markup to use effectively. I am convenient because
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -150,9 +148,9 @@
                 </div>
             </div>
         </section>
-        <section id="cursos">
+        <section id="gallery">
             <div class="container curso">
-                <h3 class="font-blitzen center size-5 mt-3 green-ligth">Nossos Cursos</h3>
+                <h3 class="font-blitzen center size-5 mt-3 green-ligth">Galerias</h3>
                 <div class="row">
                     <div class="col m4 l4 s12">
                         <div class="card">
@@ -160,11 +158,11 @@
                                 <img class="activator" src="img/1.jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#">This is a link</a></p>
+                                <span class="card-title activator grey-text text-darken-4">Dia das Crianças 2019<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">Ver mais</a></p>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <span class="card-title grey-text text-darken-4">Dia das Crianças 2019<i class="material-icons right">close</i></span>
                                 <p>Here is some more information about this product that is only revealed once clicked on.</p>
                             </div>
                         </div>
@@ -176,11 +174,11 @@
                                 <img class="activator" src="img/2.jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#">This is a link</a></p>
+                                <span class="card-title activator grey-text text-darken-4">Aula no Laboratório<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">Ver mais</a></p>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <span class="card-title grey-text text-darken-4">Aula no Laboratório<i class="material-icons right">close</i></span>
                                 <p>Here is some more information about this product that is only revealed once clicked on.</p>
                             </div>
                         </div>
@@ -192,11 +190,11 @@
                                 <img class="activator" src="img/3.jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#">This is a link</a></p>
+                                <span class="card-title activator grey-text text-darken-4">Aula de Artes<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">Ver mais</a></p>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <span class="card-title grey-text text-darken-4">Aula de Artes<i class="material-icons right">close</i></span>
                                 <p>Here is some more information about this product that is only revealed once clicked on.</p>
                             </div>
                         </div>
@@ -204,11 +202,122 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container curso">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos laboriosam quaerat tempora nostrum in fuga voluptates neque, necessitatibus animi aliquid, modi reprehenderit facilis exercitationem minus ab autem officiis omnis.
+        <section id="view">
+            <div class="row">
+                <div class="col m12 s12 l12 meta center">
+                    <h5 class="light grey-text text-lighten-3">"A educação não é uma simples transmissão de conhecimento, ela vai além, tornando-se um processo que dá suporte e permite o aluno criar e experimentar o conhecimento e o aprendizado. A meta é ajudar o aluno a criar e experimentar o
+                        conhecimento e o aprendizado."</h5>
+                </div>
             </div>
         </section>
+        <section id="teacher">
+            <div class="container">
+                <h3 class="font-blitzen center size-5 mt-3 green-ligth">Nossos Professores</h3>
+                <div class="row">
+                    <div class="col m4 l4 s12">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/team1.jpg">
+                            </div>
+                            <div class="card-content card1">
+                                <span class="card-title activator white-text text-darken-4 ">Maria Lima<i class="material-icons right">more_vert</i></span>
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                                <p class="teal center "><a href="#" class="white-text">Fale comigo</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Maria Lima<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 l4 s12">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/team2.jpg">
+                            </div>
+                            <div class="card-content card2">
+                                <span class="card-title activator white-text text-darken-4">Carlos Alves<i class="material-icons right">more_vert</i></span>
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                                <p class="teal center"><a href="#" class="white-text">Fale comigo</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Carlos Alves<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 l4 s12">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/team3.jpg">
+                            </div>
+                            <div class="card-content card3">
+                                <span class="card-title activator white-text text-darken-4 ">Luiza Emanuela<i class="material-icons right">more_vert</i></span>
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span>
+                                <p class="teal center"><a href="#" class="white-text">Fale comigo</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Luiza Emanuela<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col m4 l4 s12 ">
+                            <img src="img/design borda.png" height="90" />
+                            <div class="linha">
+                                <i class="material-icons">room</i>
+                                <p> Alameda José Quintino, s/n - Prado, Cedro - CE, 63400-000</p>
+                            </div>
+                            <div class="linha">
+                                <i class="material-icons">call</i>
+                                <p>(88) 3564-1000</p>
+                            </div>
+                            <div class="linha">
+                                <i class="material-icons">mail</i>
+                                <p>arvoredosaber@gamil.com</p>
+                            </div>
+                        </div>
+                        <div class="col m4 l4 s12">
+                            <h5>Links Úteis</h5>
+                            <ul>
+                                <li><a class="scroll" href="#gallery">Galerias</a></li>
+                                <li><a class="scroll" href="#welcome">Conheça-nos</a></li>
+                                <li><a class="scroll" href="#view">Meta</a></li>
+                                <li><a class="scroll" href="#teacher">Professores</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col m4 l4 s12 redes">
+                            <h5>Redes Sociais</h5>
+                            <div class="linha">
+                                <i class="fab fa-facebook"></i>
+                                <p>/arvoredosaber</p>
+                            </div>
+                            <div class="linha">
+                                <i class="fab fa-instagram"></i>
+                                <p>@arvoredosaber</p>
+                            </div>
+                            <div class="linha">
+                                <i class="fab fa-whatsapp"></i>
+                                <p>(88) 99212-1221</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rodape">
+                <div class="container">
+                    <p class="center pt-3">Copyright@2019 By Aldenor Júnior | Bonfim Justino | Rubens Lopes. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
     </div>
 
 

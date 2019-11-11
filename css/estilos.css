@@ -3,9 +3,18 @@
     src: url('../fonts/Blitzen\ Deer.otf');
 }
 
+@font-face {
+    font-family: LobsterTwo;
+    src: url('../fonts/LobsterTwo-Italic.otf');
+}
+
 div.slogan {
     height: auto;
-    background: #ee6e73 !important;
+    background: #f9b436 !important;
+}
+
+nav {
+    background-color: #f9b436 !important;
 }
 
 nav.container {
@@ -27,7 +36,7 @@ nav#nav-menu {
     box-shadow: 0 2px 2px 0 rgba(252, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
 }
 
-section#gallery {
+section#curso {
     background-image: url('../img/fundo.jpg');
     background-repeat: repeat;
 }
@@ -80,10 +89,114 @@ section#welcome {
     background-repeat: repeat;
 }
 
-section#cursos {
+section#gallery {
     margin-top: 0px !important;
     background-attachment: fixed;
     background-image: url(../img/cursos.jpeg);
     background-repeat: no-repeat;
     opacity: 0.8;
+}
+
+section#teacher .card .card1 {
+    background-color: #D33259;
+    color: #fff !important;
+}
+
+section#teacher .card .card2 {
+    background-color: #06a9e7;
+    color: #fff !important;
+}
+
+section#teacher .card .card3 {
+    background-color: #AB528c;
+    color: #fff !important;
+}
+
+section#teacher .card-content p {
+    padding: 10px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+section#teacher .card-content span.card-title {
+    font-family: LobsterTwo, cursive;
+    font-size: 28px;
+}
+
+section#curso .card .card-image img {
+    opacity: 0.9;
+}
+
+section#curso .card .card-title {
+    font-weight: 500;
+}
+
+section#view {
+    height: 300px;
+    background-image: url('../img/bgp3.jpg');
+    background-repeat: repeat;
+}
+
+section#view .meta {
+    padding-top: 6%;
+}
+
+section#view .meta h5 {
+    font-family: LobsterTwo;
+}
+
+footer {
+    background-attachment: fixed;
+    background-image: url('../img/footer.jpeg');
+    background-position-y: top;
+}
+
+footer .content {
+    background-color: rgba(37, 32, 32, 0.8);
+    height: 400px;
+}
+
+footer p {
+    color: #8b8989;
+    margin-top: 0 !important;
+}
+
+footer i {
+    color: #fff;
+    float: left;
+    margin-right: 15px;
+}
+
+footer .content .row {
+    padding-top: 8%;
+}
+
+footer h5 {
+    color: #fff;
+}
+
+footer a {
+    color: #8b8989;
+}
+
+footer ul li {
+    border-bottom: 1px dashed #8b8989;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: #f7f5f5;
+}
+
+.fab {
+    font-size: 22px;
+}
+
+footer .rodape {
+    height: 50px;
+    background-color: #000;
+}
+
+footer .rodape p {
+    font-size: 12px;
 }
